@@ -96,7 +96,7 @@ style the element with the id of hero
 	height: 450px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("/images/travel_hero.jpg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/travel_hero.jpg");
 }
 
 /*
@@ -104,7 +104,7 @@ style the element with the id of hero
  set the background image to (spain_flag.svg)
 */
 #spain {
-	background-image: url("/images/spain_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/spain_flag.svg");
 }
 
 /*
@@ -112,7 +112,7 @@ style the element with the id of hero
  set the background image to (italy_flag.svg)
 */
 #italy {
-	background-image: url("/images/italy_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/italy_flag.svg");
 }
 
 /*
@@ -120,7 +120,7 @@ style the element with the id of hero
  set the background image to (aruba_flag.svg)
 */
 #aruba {
-	background-image: url("/images/aruba_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/aruba_flag.svg");
 }
 
 /*
@@ -128,7 +128,7 @@ style the element with the id of hero
  set the background image to (chile_flag.svg)
 */
 #chile {
-	background-image: url("/images/chile_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/chile_flag.svg");
 }
 
 /*
