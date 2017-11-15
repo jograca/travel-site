@@ -97,6 +97,7 @@ style the element with the id of hero
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/travel_hero.jpg");
+	background-attachment: fixed;
 }
 
 /*
