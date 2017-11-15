@@ -195,15 +195,23 @@ style the element with the id of hero
   - make sure the text is white
 */
 
-#logo > a {
+#masthead a {
 	text-decoration-line: none;
 	color: white;
 }
 
+/* This is what I had originally for masthead
+It was a little more specific than what we went over in class
+
+#logo > a {
+	text-decoration-line: none;
+	color: white;
+} 
+
 #nav-list > li > a {
 	text-decoration: none;
 	color: white;
-}
+} */
 
 /*
  target the element with the id of footer
