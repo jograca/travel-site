@@ -96,7 +96,8 @@ style the element with the id of hero
 	height: 450px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("/images/travel_hero.jpg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/travel_hero.jpg");
+	background-attachment: fixed;
 }
 
 /*
@@ -104,7 +105,7 @@ style the element with the id of hero
  set the background image to (spain_flag.svg)
 */
 #spain {
-	background-image: url("/images/spain_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/spain_flag.svg");
 }
 
 /*
@@ -112,7 +113,7 @@ style the element with the id of hero
  set the background image to (italy_flag.svg)
 */
 #italy {
-	background-image: url("/images/italy_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/italy_flag.svg");
 }
 
 /*
@@ -120,7 +121,7 @@ style the element with the id of hero
  set the background image to (aruba_flag.svg)
 */
 #aruba {
-	background-image: url("/images/aruba_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/aruba_flag.svg");
 }
 
 /*
@@ -128,7 +129,7 @@ style the element with the id of hero
  set the background image to (chile_flag.svg)
 */
 #chile {
-	background-image: url("/images/chile_flag.svg");
+	background-image: url("https://s3.amazonaws.com/graca-g4c-indy-nov/chile_flag.svg");
 }
 
 /*
@@ -182,7 +183,7 @@ style the element with the id of hero
 */
 .nav-link {
 	display: inline;
-	paddnig-top: 5px;
+	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -194,15 +195,23 @@ style the element with the id of hero
   - make sure the text is white
 */
 
-#logo > a {
+#masthead a {
 	text-decoration-line: none;
 	color: white;
 }
 
+/* This is what I had originally for masthead
+It was a little more specific than what we went over in class
+
+#logo > a {
+	text-decoration-line: none;
+	color: white;
+} 
+
 #nav-list > li > a {
 	text-decoration: none;
 	color: white;
-}
+} */
 
 /*
  target the element with the id of footer
