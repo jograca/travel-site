@@ -8,4 +8,6 @@ In this project:
 * Using CSS, a series of element formatting instructions were followed to match the provided page with the expected result
 
 
-Included here in the 'develop' branch, I removed the instances of the images included in the static resources of  the project and link to copies I uploaded to an S3 bucket.
+In this version I uploaded the images we used to S3 and made them public. In a previous commit I have the images contained in the project:
+
+https://github.com/jograca/travel-site/commit/ac7322db79c8553545cf939986d05ecc0a96bdae
